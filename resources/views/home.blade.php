@@ -42,8 +42,8 @@
 					<div class="col-lg-7">
 						<div class="banner_content">
 							<h3 class="text-uppercase">Hell0</h3>
-							<h1 class="text-uppercase">I am rahi satner</h1>
-							<h5 class="text-uppercase">senior wordpress developer</h5>
+							<h1 class="text-uppercase">I am Prince Kumar</h1>
+							<h5 class="text-uppercase">Full Stack developer</h5>
 							<div class="d-flex align-items-center">
 								<a class="primary_btn" href="#"><span>Hire Me</span></a>
 								<a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
@@ -76,14 +76,12 @@
 						<h2>let’s <br>
 							Introduce about <br>
 							myself</h2>
-						<p>
+						{{-- <p>
 							Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven 
 							midst their. Beast creepeth. Fish days.
-						</p>
+						</p> --}}
 						<p>
-							Is give may shall likeness made yielding spirit a itself together created after sea 
-							is in beast beginning signs open god you're gathering whose gathered cattle let. 
-							Creature whales fruit unto meat the life beginning all in under give two.
+						I began my coding journey as a self-taught developer, diving into the world of programming through C++ and algorithms. Over time, my passion for web development grew, and I started learning JavaScript, Node.js, React, and Laravel. Each project I build enhances my skills, and I’m excited to contribute to innovative projects that make a difference.
 						</p>
 						<a class="primary_btn" href="#"><span>Download CV</span></a>
 					</div>
@@ -204,29 +202,29 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="img/services/s1.png" alt="">
-						<h4>Wp developing</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+						<h4>Web developing</h4>
+						<p>Full-stack development using MERN (MongoDB, Express, React, Node.js) or Laravel with MySQL for modern, responsive apps.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="img/services/s2.png" alt="">
-						<h4>UI/ux design</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+						<h4>Problem Solving</h4>
+						<p>Expert in C++ algorithms and data structures, optimizing solutions for coding challenges.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="img/services/s3.png" alt="">
-						<h4>Web design</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+						<h4>API Integration</h4>
+						<p>Custom REST APIs and third-party integrations (e.g., payment gateways) for smooth, secure connections.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="img/services/s4.png" alt="">
-						<h4>seo optimize</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+						<h4>Database Design</h4>
+						<p>Efficient MongoDB and MySQL database modeling, optimization, and management.</p>
 					</div>
 				</div>
 			</div>
