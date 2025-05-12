@@ -13,7 +13,7 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item active"><a class="nav-link" href="/home">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
 							<li class="nav-item"><a class="nav-link" href="/service">Services</a></li>
 							<li class="nav-item"><a class="nav-link" href="/project">Projects</a></li>
@@ -27,3 +27,16 @@
 			</nav>
 		</div>
 	</header>
+
+	<script>
+  const currentPath = window.location.pathname;
+  console.log(currentPath);
+  
+  document.querySelectorAll('.menu_nav .nav-link').forEach(link => {
+    if (link.getAttribute('href') === currentPath) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+</script>

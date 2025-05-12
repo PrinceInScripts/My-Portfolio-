@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Satner Portfolio</title>
+	<title>Portfolio | Prince Kumar</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -92,7 +92,7 @@
 	<!--================ End About Us Area =================-->
 
 	<!--================ Srart Brand Area =================-->
-	<section class="brand_area section_gap_bottom">
+	{{-- <section class="brand_area section_gap_bottom">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-6">
@@ -181,7 +181,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 	<!--================ End Brand Area =================-->
 
 	<!--================ Start Features Area =================-->
@@ -246,16 +246,16 @@
 			<div class="filters portfolio-filter">
 				<ul>
 					<li class="active" data-filter="*">all</li>
-					<li data-filter=".popular">popular</li>
-					<li data-filter=".latest"> latest</li>
-					<li data-filter=".following">following</li>
-					<li data-filter=".upcoming">upcoming</li>
+					<li data-filter=".mern">MERN</li>
+					<li data-filter=".laravel"> Laravel / PHP</li>
+					<li data-filter=".games">Games</li>
+					<li data-filter=".upcoming">Upcoming</li>
 				</ul>
 			</div>
 	
 			<div class="filters-content">
 				<div class="row portfolio-grid justify-content-center">
-					<div class="col-lg-4 col-md-6 all latest">
+					<div class="col-lg-4 col-md-6 all mern">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="img/portfolio/p1.jpg" alt="">
@@ -272,7 +272,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all popular">
+					<div class="col-lg-4 col-md-6 all mern">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="">
@@ -289,7 +289,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all latest">
+					<div class="col-lg-4 col-md-6 all laravel">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="img/portfolio/p3.jpg" alt="">
@@ -306,7 +306,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all popular">
+					<div class="col-lg-4 col-md-6 all games">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="img/portfolio/p4.jpg" alt="">
@@ -323,7 +323,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all following">
+					<div class="col-lg-4 col-md-6 all laravel">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
@@ -357,7 +357,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all upcoming following">
+					<div class="col-lg-4 col-md-6 all upcoming laravel">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="img/portfolio/p7.jpg" alt="">
@@ -374,7 +374,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all following">
+					<div class="col-lg-4 col-md-6 all games">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="img/portfolio/p8.jpg" alt="">
@@ -391,7 +391,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 all upcoming">
+					<div class="col-lg-4 col-md-6 all mern">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="img/portfolio/p9.jpg" alt="">
@@ -540,34 +540,7 @@
 	<!--================ End Newsletter Area =================-->
 
 	<!--================Footer Area =================-->
-	<footer class="footer_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-12">
-					<div class="footer_top flex-column">
-						<div class="footer_logo">
-							<a href="#">
-								<img src="img/logo.png" alt="">
-							</a>
-							<h4>Follow Me</h4>
-						</div>
-						<div class="footer_social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row footer_bottom justify-content-center">
-				<p class="col-lg-8 col-sm-12 footer-text">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		</div>
-	</footer>
+	 <x-footer />
 	<!--================End Footer Area =================-->
 
 	<!-- Optional JavaScript -->
